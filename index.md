@@ -79,7 +79,7 @@
 
 本プライバシーポリシーに関するお問い合わせは、以下までご連絡ください:
 
-メールアドレス: [your-email@example.com]
+メールアドレス: e.kimura@dom-grp.com
 
 ---
 
