@@ -79,7 +79,7 @@
 
 本プライバシーポリシーに関するお問い合わせは、以下までご連絡ください:
 
-メールアドレス: e.kimura@dom-grp.com
+メールアドレス: support@dom-grp.com
 
 ---
 
@@ -94,4 +94,4 @@ Third-party services used:
 - Google Firebase (online battle, authentication)
 - Google Play Billing (in-app purchases)
 
-For privacy concerns, please contact: [your-email@example.com]
+For privacy concerns, please contact: support@dom-grp.com
