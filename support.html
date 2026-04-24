@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サポート - AI将棋 〜育てて対局〜</title>
+    <meta name="description" content="AI将棋 〜育てて対局〜 のサポートページ。よくある質問・お問い合わせ窓口。">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #1A237E 0%, #3F51B5 100%);
+            min-height: 100vh;
+            padding: 20px 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #1A237E, #8B4513);
+            color: #fff;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        header .logo {
+            display: inline-block;
+            background: #F5DEB3;
+            color: #1A1A1A;
+            width: 64px;
+            height: 64px;
+            line-height: 64px;
+            font-size: 32px;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-family: serif;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 26px;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+        }
+        header .subtitle {
+            font-size: 14px;
+            opacity: 0.9;
+            color: #FFE082;
+        }
+        .content {
+            padding: 32px 24px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #1A237E;
+            border-left: 4px solid #1A237E;
+            padding-left: 12px;
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+        h2:first-child {
+            margin-top: 0;
+        }
+        .faq-item {
+            background: #F9F9F9;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 12px;
+            border-left: 3px solid #D4AF37;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: #1A237E;
+            margin-bottom: 8px;
+        }
+        .faq-question::before {
+            content: "Q. ";
+            color: #D4AF37;
+            font-size: 18px;
+        }
+        .faq-answer::before {
+            content: "A. ";
+            color: #5D2E0C;
+            font-weight: bold;
+        }
+        .faq-answer {
+            color: #555;
+            font-size: 14px;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #FFF9E6, #FFE4B5);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            margin-top: 24px;
+            border: 2px solid #D4AF37;
+        }
+        .contact-box .label {
+            color: #8B4513;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .contact-box .email {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1A237E;
+            letter-spacing: 0.5px;
+        }
+        .contact-box a {
+            color: #1A237E;
+            text-decoration: none;
+        }
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        .contact-note {
+            font-size: 12px;
+            color: #666;
+            margin-top: 12px;
+        }
+        .info-item {
+            display: flex;
+            padding: 12px 0;
+            border-bottom: 1px solid #EEE;
+            font-size: 14px;
+        }
+        .info-item:last-child {
+            border-bottom: none;
+        }
+        .info-item .info-label {
+            flex: 0 0 140px;
+            color: #666;
+            font-weight: bold;
+        }
+        .info-item .info-value {
+            color: #333;
+        }
+        footer {
+            background: #F5F5F5;
+            color: #666;
+            text-align: center;
+            padding: 20px 16px;
+            font-size: 12px;
+        }
+        footer a {
+            color: #1A237E;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .note {
+            background: #E3F2FD;
+            border-left: 4px solid #1976D2;
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin: 16px 0;
+            font-size: 13px;
+            color: #1A1A1A;
+        }
+        @media (max-width: 600px) {
+            body { padding: 10px 8px; }
+            header { padding: 24px 16px; }
+            header h1 { font-size: 22px; }
+            .content { padding: 24px 16px; }
+            h2 { font-size: 18px; }
+            .contact-box .email { font-size: 16px; }
+            .info-item { flex-direction: column; }
+            .info-item .info-label { flex: none; margin-bottom: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">王</div>
+            <h1>AI将棋 〜育てて対局〜</h1>
+            <div class="subtitle">サポートページ</div>
+        </header>
+
+        <div class="content">
+            <!-- アプリ情報 -->
+            <h2>アプリ情報</h2>
+            <div class="info-item">
+                <div class="info-label">アプリ名</div>
+                <div class="info-value">AI将棋 〜育てて対局〜</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">対応OS</div>
+                <div class="info-value">iOS 13.0 以降 / Android 5.0 以降</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">カテゴリ</div>
+                <div class="info-value">ゲーム / ボード</div>
+            </div>
+            <div class="info-item">
+                <div class="info-label">価格</div>
+                <div class="info-value">無料（アプリ内課金あり）</div>
+            </div>
+
+            <!-- よくある質問 -->
+            <h2>よくある質問</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">AIはどうやって育てるのですか？</div>
+                <div class="faq-answer">AIと対局を重ねるごとに、AIが経験値を獲得してレベルアップします。対局内容（駒の取り合い、手数など）に応じて棋風も変化していきます。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">オンライン対戦に必要なものはありますか？</div>
+                <div class="faq-answer">インターネット接続と、5回以上学習済みのAIが必要です。ランダムマッチまたは招待コードで対戦相手を見つけられます。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">プレミアム会員の特典は何ですか？</div>
+                <div class="faq-answer">以下の特典が利用できます：<br>・AIを最大3体まで作成可能<br>・最善手学習が1日10回まで増量<br>・すべての広告が非表示</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">プレミアムの解約方法を教えてください</div>
+                <div class="faq-answer">iOS: 設定 → Apple ID → サブスクリプションから解約できます。<br>Android: Google Play → アカウント → 定期購入から解約できます。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">機種変更時にデータは引き継げますか？</div>
+                <div class="faq-answer">同一OS間（iOS→iOS、Android→Android）での機種変更の場合、同じアカウントでログインすれば課金情報は引き継がれます。ただし、AIの育成データ（端末ローカル保存）は引き継がれません。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">アプリが起動しない・クラッシュする</div>
+                <div class="faq-answer">以下をお試しください：<br>1. アプリを再起動<br>2. 端末を再起動<br>3. OSを最新バージョンに更新<br>4. アプリを最新版にアップデート<br>それでも解決しない場合は下記サポート窓口までご連絡ください。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">対戦相手が見つかりません</div>
+                <div class="faq-answer">ランダムマッチでは時間帯によって相手が見つからない場合があります。その場合は「ルームを作成」で招待コードを発行し、友達と直接対戦してください。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">広告が非表示になりません</div>
+                <div class="faq-answer">プレミアム会員を購入後、アプリを再起動してください。購入履歴の反映に時間がかかる場合があります。「購入を復元」ボタンもお試しください。</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">購入した棋譜パックが反映されません</div>
+                <div class="faq-answer">ストア画面の「購入を復元」をタップしてください。それでも反映されない場合は、アプリを再起動してお試しください。</div>
+            </div>
+
+            <!-- お問い合わせ -->
+            <h2>お問い合わせ</h2>
+            <p style="margin-bottom: 16px; font-size: 14px; color: #555;">
+                ご質問・ご要望・不具合報告は以下の窓口までお寄せください。
+            </p>
+
+            <div class="contact-box">
+                <div class="label">📧 サポート窓口</div>
+                <div class="email">
+                    <a href="mailto:support@dom-grp.com">support@dom-grp.com</a>
+                </div>
+                <div class="contact-note">
+                    お問い合わせの際は、端末名・OSバージョン・アプリバージョンもお知らせください。
+                </div>
+            </div>
+
+            <div class="note">
+                <strong>💡 ご連絡時のお願い</strong><br>
+                返信には数日お時間をいただく場合があります。お急ぎの場合はその旨をお伝えください。
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                <a href="./privacy.html">プライバシーポリシー</a>
+                |
+                <a href="./">トップへ戻る</a>
+            </p>
+            <p style="margin-top: 8px;">
+                © 2026 domgrp All rights reserved.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
